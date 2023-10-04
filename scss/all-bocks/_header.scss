@@ -1,0 +1,46 @@
+
+.header{
+    margin: 40px 20px;
+
+      & .nav__list{
+        display: flex;
+        justify-content: space-between;
+      }
+
+      &.header .container{
+        display: flex;
+        justify-content: space-between;
+      }
+
+
+      & li,a{
+        text-decoration: none;
+        list-style: none;
+      }
+
+
+
+      &.nav__list{
+        display: flex;
+        padding-left: 100px;
+      }
+
+
+      &  .nav__item +.nav__item{
+        padding-left: 33px;
+    }
+
+
+
+    &.nav__link2{
+        color: black;
+        font-family:" Barlow";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 15px; /* 125% */
+    }
+
+  }
+    
+  
